@@ -29,6 +29,7 @@ function App() {
         base: '1fr',
         lg: '200px 1fr',
       }}
+      overflowX='hidden'
     >
       <GridItem area='nav'>
         <NavBar onSearch={(searchText) => setGameQuery({ ...gameQuery, searchText })} />
