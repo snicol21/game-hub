@@ -1,0 +1,26 @@
+{
+  "sortConfiguration.customOrderingRules.defaultNumberOfEmptyLinesAfterGroup": 0,
+  "generalConfiguration.sortOnBeforeSave": true,
+  "sortConfiguration.removeUnusedDefaultImports": true,
+  "sortConfiguration.removeUnusedImports": true,
+  "sortConfiguration.customOrderingRules.rules": [
+    {
+      "regex": "^[^.@]",
+      "orderLevel": 10
+    },
+    {
+      "regex": "^[@]",
+      "orderLevel": 15
+    },
+    {
+      "regex": "^[.]",
+      "orderLevel": 30
+    },
+    {
+      "type": "importMember",
+      "regex": "^$",
+      "orderLevel": 40,
+      "disableSort": true
+    }
+  ]
+}
