@@ -4,7 +4,7 @@ import { FaAndroid, FaApple, FaLinux, FaPlaystation, FaWindows, FaXbox } from 'r
 import { MdPhoneIphone } from 'react-icons/md';
 import { SiNintendo } from 'react-icons/si';
 import { HStack, Icon } from '@chakra-ui/react';
-import { Platform } from '../hooks/usePlatforms';
+import { Platform } from '../entities/Platform';
 
 export interface Props {
   platforms: Platform[];
